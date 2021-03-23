@@ -317,26 +317,22 @@ export default function Home() {
                       lame excuses like - I can’t plant those trees because then
                       they drop fruits and leafs to the ground…
                     </p>
-                    <p className="text-base leading-7">
-                      When monkeys and other wildlife do their daily
-                      evacuations, national and international immigrants not
-                      used to living in nature proceed to cut down trees or
-                      worse shoot and kill them.
+                    <p className="text-lg leading-7">
+                      When monkeys and other wildlife got about their daily
+                      routines, national and international immigrants not used
+                      to sharing their space with nature proceed to cut down
+                      trees or worse shoot and kill them.
                     </p>
-                    <p className="text-base leading-7">
+                    <p className="text-lg leading-7">
                       The list goes on, but most importantly Guanacaste is the
-                      region with the greatest amount of foreign and
-                      gobernmental investment, an attitude was created of
-                      development above everything else - and now that it has
-                      gone too far we have to reset it.
+                      region with the most investment in tourism, it's also
+                      known for{" "}
+                      <span className="text-2xl text-rose-600">
+                        "development above everything else"
+                      </span>{" "}
                     </p>
 
-                    <p className="text-base leading-7">
-                      Together we can single out those that don’t understand
-                      that the tourism and economic model of Costa Rica requires
-                      a balance between humans and wildlife. And their actions
-                      are incorrect.
-                    </p>
+                    <p className="text-lg leading-7">it has gone too far.</p>
                   </div>
                 </div>
                 {/* Stats section */}
@@ -393,79 +389,12 @@ export default function Home() {
                     Report a monkey problem
                   </h2>
                   <p className="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi. Cursus faucibus
-                    nunc nisl netus morbi vel porttitor vitae ut. Amet vitae
-                    fames senectus vitae.
-                  </p>
-                  <div className="mt-6">
-                    <a href="#" className="text-base font-medium text-rose-500">
-                      Meet our investors and advisors&nbsp;→
-                    </a>
-                  </div>
-                </div>
-                <div className="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                      alt="Workcation"
-                    />
-                  </div>
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                      alt="Mirage"
-                    />
-                  </div>
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                      alt="Tuple"
-                    />
-                  </div>
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-                      alt="Laravel"
-                    />
-                  </div>
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                      alt="StaticKit"
-                    />
-                  </div>
-                  <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                    <img
-                      className="max-h-12"
-                      src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                      alt="Statamic"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-32">
-            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-              <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
-                <div>
-                  <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                    Let’s give credit where it’s due!
-                  </h2>
-                  <p className="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi. Cursus faucibus
-                    nunc nisl netus morbi vel porttitor vitae ut. Amet vitae
-                    fames senectus vitae.
+                    Help us single out those that don’t understand that in Costa
+                    Rica wildlife must be taken into account for{" "}
+                    <span className="text-3xl font-medium text-rose-500">
+                      real
+                    </span>
+                    , not just for marketing.
                   </p>
                   <div className="mt-6">
                     <a href="#" className="text-base font-medium text-rose-500">
