@@ -45,7 +45,7 @@ export default function Home() {
                         What's new
                       </span>
                       <span className="inline-flex items-center text-sm font-medium text-rose-500 space-x-1">
-                        <span>Just shipped version 0.1.0</span>
+                        <span>Requesting Crowndfundme donations</span>
                         {/* Heroicon name: solid/chevron-right */}
                         <svg
                           className="h-5 w-5"
@@ -77,13 +77,23 @@ export default function Home() {
                   >
                     <div className="min-w-0 flex-1">
                       <label htmlFor="hero_email" className="sr-only">
-                        Email address
+                        Phone number
                       </label>
                       <input
                         id="hero_email"
-                        type="email"
+                        type="string"
                         className="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-rose-500 focus:ring-rose-500"
-                        placeholder="Enter your email"
+                        placeholder="Country Code"
+                      />
+
+                      <label htmlFor="hero_email" className="sr-only">
+                        Phone number
+                      </label>
+                      <input
+                        id="hero_email"
+                        type="string"
+                        className="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-rose-500 focus:ring-rose-500"
+                        placeholder="Phone Number"
                       />
                     </div>
                     <div className="mt-4 sm:mt-0 sm:ml-3">
@@ -91,7 +101,7 @@ export default function Home() {
                         type="submit"
                         className="block w-full rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                       >
-                        Notify me
+                        Keep me up to date
                       </button>
                     </div>
                   </form>
