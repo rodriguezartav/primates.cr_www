@@ -45,7 +45,7 @@ export default function Home() {
                         What's new
                       </span>
                       <span className="inline-flex items-center text-sm font-medium text-rose-500 space-x-1">
-                        <span>Requesting Crowndfundme donations</span>
+                        <span>Requesting Crowndfunding donations</span>
                         {/* Heroicon name: solid/chevron-right */}
                         <svg
                           className="h-5 w-5"
@@ -213,7 +213,7 @@ export default function Home() {
                 <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
                   <img
                     className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                    src="propuesta_RR_1Mesa de trabajo 1@4x-8.png"
+                    src="propuesta_RR_1Mesa de trabajo 3@4x-8.png"
                     alt=""
                   />
                 </div>
