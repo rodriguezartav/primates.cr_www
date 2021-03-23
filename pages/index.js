@@ -38,7 +38,7 @@ export default function Home() {
                     alt="Workflow"
                   />
                 </div>
-                <div className="mt-20">
+                <div className="mt-5 sm:mt-20">
                   <div>
                     <a href="#" className="inline-flex space-x-4">
                       <span className="rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase">
@@ -63,12 +63,21 @@ export default function Home() {
                       </span>
                     </a>
                   </div>
+
+                  <div className="relative mt-10 border-rose-500 rounded-md border-2 m-5 sm:mx-auto sm:px-0 md:hidden">
+                    <img
+                      className=""
+                      src="propuesta_RR_1Mesa de trabajo 3@4x-8.png"
+                      alt=""
+                    />
+                  </div>
+
                   <div className="mt-6 sm:max-w-xl">
-                    <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                      Sorry for pointing fingers at you Guanacaste
+                    <h1 className="text-xl sm:text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+                      Sorry for pointing fingers at you, Guanacaste
                     </h1>
-                    <p className="mt-6 text-xl text-rose-600">
-                      We actually love you
+                    <p className="mt-2 sm:mt-6 text-xl text-rose-600">
+                      we actually love you
                     </p>
                   </div>
                   <form
@@ -105,77 +114,12 @@ export default function Home() {
                       </button>
                     </div>
                   </form>
-                  <div className="mt-6">
-                    <div className="inline-flex items-center divide-x divide-gray-300">
-                      <div className="flex-shrink-0 flex pr-5">
-                        {/* Heroicon name: solid/star */}
-                        <svg
-                          className="h-5 w-5 text-yellow-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                        {/* Heroicon name: solid/star */}
-                        <svg
-                          className="h-5 w-5 text-yellow-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                        {/* Heroicon name: solid/star */}
-                        <svg
-                          className="h-5 w-5 text-yellow-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                        {/* Heroicon name: solid/star */}
-                        <svg
-                          className="h-5 w-5 text-yellow-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                        {/* Heroicon name: solid/star */}
-                        <svg
-                          className="h-5 w-5 text-yellow-400"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                      </div>
-                      <div className="min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3">
-                        <span className="font-medium text-gray-900">
-                          Rated 5 stars
-                        </span>{" "}
-                        by over{" "}
-                        <span className="font-medium text-rose-500">
-                          500 beta users
-                        </span>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
-            <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
+            <div className="hidden sm:block sm:mx-auto sm:max-w-3xl sm:px-6">
               <div className="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <div className="hidden sm:block">
+                <div className="">
                   <div className="absolute inset-y-0 left-1/2 w-screen bg-gray-50 rounded-l-3xl lg:left-80 lg:right-0 lg:w-full" />
                   <svg
                     className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0"
@@ -314,11 +258,15 @@ export default function Home() {
                 {/* Content area */}
                 <div className="pt-12 sm:pt-16 lg:pt-20">
                   <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-                    but, you are making a{" "}
-                    <span className="text-5xl text-rose-600">big</span> mistake,
-                    and this <span className="text-4xl text-rose-600">is</span>{" "}
-                    an{" "}
-                    <span className="text-8xl text-rose-600">intervention</span>
+                    but you are making a{" "}
+                    <span className="text-4xl md:text-5xl text-rose-600">
+                      big
+                    </span>{" "}
+                    mistake, and this{" "}
+                    <span className="text-4xl text-rose-600">is</span> an{" "}
+                    <span className="text-4xl md:text-8xl text-rose-600">
+                      intervention
+                    </span>
                   </h2>
                   <div className="mt-6 text-gray-500 space-y-6">
                     <p className="text-lg">
